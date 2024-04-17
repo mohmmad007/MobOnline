@@ -1,0 +1,199 @@
+*{
+    direction: rtl;
+box-sizing: border-box;
+font-family: 'IRANSans';
+padding: 0;
+margin: 0;
+table-layout: 0;
+}
+/* ___________________________________________________________________________________________- */
+#header1{
+    font-size:40px;
+    /* position:absolute; */
+    top: 50px;
+    right: 0px;
+    color: chartreuse;
+    font-family: 'impact';
+    letter-spacing: 3px;
+    /* display: inline-block; */
+    float: right;
+}
+#searchbox:focus{
+    width: 83%;
+}
+
+#searchbox{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 800px;
+    font-size: 16px;
+    background-color: #ffffff;
+    background-image: url('download\ \(3\).png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.6s ease-in-out ;
+    /* display: inline; */
+    /* direction: ltr;   */
+    float: left;
+    margin-left: 6px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 42px;
+
+
+}
+header{
+    background-color: rgb(158, 91, 229);
+    margin-top: 0px;
+    height: 48px;
+}
+.ul_head{
+    background-color: rgb(45, 45, 74);
+    list-style-type: none;
+    top: 0;
+    padding: 0;
+    word-spacing: -2px;
+    /* display: inline-block; */
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    float: right;
+    direction: rtl;
+
+
+}
+
+.a:first-child{
+    background-color: rgb(67, 186, 229);
+    border-right: none;
+    display: inline-block;
+}
+
+.a:first-child:hover{
+    background-color: rgb(0, 164, 223);
+}
+
+.a:hover{
+    background-color: rgb(87, 87, 105);
+}
+
+.a{
+    display: inline-block;
+    height: 60px;
+    position: sticky;
+
+}
+
+
+.li-1{
+    color: white;
+}
+
+.li_head{
+    display: inline-block;
+    padding:13px 35px;
+    color: #ccc;
+    text-transform:capitalize ;
+    font-family: 'IRANSans';
+
+    border-right: 1px dotted #555;
+    position: sticky;
+    font-size: 20px;
+
+/* ___________________________________________________________________________________________- */
+
+}
+.img_phone{
+    width: 400px;
+    height: 400px;
+}
+
+.t1{
+    vertical-align: top;
+    width: 61%;
+    font-size: 30px;
+}
+.t2{
+    margin-right: 33px;
+    margin-top: 10px;
+}
+.h_att{
+    margin-right: 16px;
+    margin-top: 20px;
+    list-style-type: none;
+
+}
+.li_att{
+    margin-top: 20px;
+    list-style-type: circle;
+    
+}
+h3{
+    color: rgb(67, 186, 229);
+}
+
+/* ___________________________________________________________________________________________- */
+
+footer{
+    background-color: rgb(245, 181, 181) ;
+    clear: both;
+    direction: rtl;
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
+
+}
+
+#t_footer{
+    font-size: 20px;
+    /* display: inline-block; */
+}
+#m_footer{
+    width: 70%;
+    display: inline-block;
+
+}
+.imginf1{
+    width: 9%;
+    height: 90px;
+    float: left;
+}
+.imginf2{
+    width: 6%;
+    height: 90px;
+    /* float: left; */
+float: left;
+}
+
+#app_dl{
+    width: 70%;
+    height: 70px;
+    /* background-color: red; */
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 27px;
+    padding: 13px 7px 0px 7px;
+    
+}
+.app1{
+    float: left;
+    margin-right: 7px;
+    height: 45px;
+    background-color: white;
+    border-radius: 5px;
+}
+.app1:hover{
+    background-color: white;
+}
+.app2{
+    float: left;
+    margin-right: 7px;
+    height: 0;
+}
+#t_dl{
+    display: inline;
+    margin-top: 50px;
+    font-size: 20px;
+}
